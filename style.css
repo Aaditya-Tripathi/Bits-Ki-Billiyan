@@ -1,0 +1,48 @@
+
+body{
+    margin: 0;
+}
+
+/* Header CSS starts */
+
+.header{
+    display: flex;
+    width: auto;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+.left-header{
+    display: flex;
+    flex: 1;
+    padding: 10px 61px;
+    font-size: 44px;
+    font-weight: 800;
+    font-family: "Rubik Bubbles", serif;
+    font-weight: 400;
+    font-style: normal; 
+    color: pink;
+    word-spacing: 50px;
+}
+
+.right-header{
+    display: flex;
+    flex-grow: 0;
+    flex-shrink: 1;
+    padding: 10px 61px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+/* Header CSS ends */
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #E5E7EB;
+}
